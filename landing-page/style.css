@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+* {
+    font-family: "Playwrite IT Moderna", cursive;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.39), rgba(0, 0, 0, 0.329)), url(https://img.freepik.com/premium-photo/desks-dark-dark-office-space-photo_960396-307170.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    box-sizing: border-box;
+    text-align: justify;
+
+
+}
+
+.text {
+    max-width: 800px;
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: cyan;
+    padding: 8px 15px;
+    font-size: 17px;
+    border-radius: 8px;
+    margin-top: 17px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+button:hover {
+    box-shadow: 0 0 5px 3px gray;
+}
+
+h1 {
+    color: tomato;
+}
+
+p {
+    color: cyan;
+}
