@@ -6,39 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audio video</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px 15px;
+        }
+
+        table {
+            border: 1px solid black;
+        }
+    </style>
+
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-            </ul>
-            <ul>
-                <li><a href="">Blog</a></li>
-            </ul>
-            <ul>
-                <li><a href="">About</a></li>
-            </ul>
-        </nav>
+    
+    <h1 draggable="true">Table Tennis Tournament</h1>
+    <table draggable="true">
+        <thead>
+            <caption>Tournament Schedule and Result</caption>
+            <tr>
+                <th>Round 1</th>
+                <th>Player A</th>
+                <th>Player B</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Match 1</td>
+                <td>John</td>
+                <td>Alice</td>
+            </tr>
+            <tr>
+                <td>Match 2</td>
+                <td>Mark</td>
+                <td>Sarah</td>
+            </tr>
 
-    </header>
-    <main>
-        <section>
-            <h1>Please fill up the form</h1>
-            <form action="">
-                <label for="fname">Your Name: <input type="text" placeholder="Type your full name" name=""
-                        id="fname"></label>
-                <label for="Email">Your Name: <input type="Email" placeholder="Type your full Email" name=""
-                        id="Email"></label>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p><small>&copy;2029. All rights reserved</small></p>
+        </tbody>
+        <thead>
+            <tr>
+                <th>Round 2</th>
+                <th>Player A</th>
+                <th>Player B</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Match 3</td>
+                <td>TBD</td>
+                <td>TBD</td>
+            </tr>
+            <tr>
+                <td>Match 4</td>
+                <td>TBD</td>
+                <td>TBD</td>
+            </tr>
 
-    </footer>
+        </tbody>
+        <thead>
+            <tr>
+                <th>Final</th>
+                <th>Winner of Match 3</th>
+                <th>Winner of Match 4</th>
+            </tr>
+        </thead>
 
+
+
+        <!-- footer -->
+        <tfoot>
+            <tr>
+                <td>Champion</td>
+                <td>TBD</td>
+                <td>TBD</td>
+            </tr>
+
+        </tfoot>
+    </table>
 
 </body>
 
