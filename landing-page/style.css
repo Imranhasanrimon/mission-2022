@@ -65,3 +65,34 @@ button::selection {
 p {
     color: cyan;
 }
+
+/* my set up  */
+main .my-setup {
+    max-width: 80%;
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+main .my-setup .desktop img {
+    max-width: 300px;
+    display: block;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.desk-container {
+    display: flex;
+    gap: 15px;
+}
+
+.my-setup h2,
+p {
+    color: white;
+    padding: 0 10px;
+}
+
+main {
+    background: linear-gradient(black, aqua);
+
+}
