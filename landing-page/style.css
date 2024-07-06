@@ -49,6 +49,19 @@ h1 {
     color: tomato;
 }
 
+h1::selection {
+    background-color: cyan;
+}
+
+p::selection {
+    background-color: tomato;
+}
+
+button::selection {
+    background-color: tomato;
+}
+
+
 p {
     color: cyan;
 }
