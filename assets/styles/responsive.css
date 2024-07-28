@@ -18,6 +18,11 @@
 
     }
 
+    /* mission section starts here  */
+    .mission-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
 
 /* for medium devices  */
@@ -42,5 +47,16 @@
         max-width: 60%;
         transform: translateY(-70px);
 
+    }
+
+    /* mission section starts here  */
+    .mission-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mission-container .goal {
+        justify-self: center;
+        grid-column: span 2;
+        margin: 0 25%;
     }
 }

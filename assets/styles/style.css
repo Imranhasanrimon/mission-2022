@@ -11,7 +11,7 @@
 
 /* Header Area Starts here  */
 header {
-    max-width: 1130px;
+    max-width: 1150px;
     margin: 50px auto;
     padding: 20px;
 
@@ -75,4 +75,56 @@ header .heading:before {
 
 .hero-image img {
     width: 100%;
+}
+
+/* mission section starts here  */
+.mission2022 {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.mission2022 h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.mission-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+.mission-container img {
+    width: 130px;
+}
+
+.mission-container h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.mission-container .mission {
+    border-radius: 26px;
+    padding: 20px;
+    background: rgba(79, 157, 166, 0.1);
+
+    img {
+        margin-bottom: 10px;
+    }
+}
+
+.mission-container .vision {
+    border-radius: 26px;
+    padding: 20px;
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.mission-container .goal {
+    border-radius: 26px;
+    padding: 20px;
+    background: rgb(255, 244, 214);
 }
