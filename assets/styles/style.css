@@ -186,3 +186,16 @@ header .heading:before {
 .app .image img {
     width: 230px;
 }
+
+/* footer styles  */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 280px;
+    background: black;
+    color: white;
+    padding: 20px;
+}
