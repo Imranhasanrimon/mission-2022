@@ -12,7 +12,9 @@
 /* Header Area Starts here  */
 header {
     max-width: 1130px;
-    margin: 20px auto;
+    margin: 50px auto;
+    padding: 20px;
+
 }
 
 header .hero-area {
@@ -21,53 +23,56 @@ header .hero-area {
     align-items: center;
 }
 
-header .hero-area .hero-text {
-
-    .heading {
-
-        position: relative;
-        margin-bottom: 15px;
-
-        .vertical-bar {
-            border-left: 5px solid rgb(255, 89, 89);
-            width: 10px;
-            height: 120px;
-            position: absolute;
-            top: 20px;
-
-        }
-
-        h1,
-        span {
-            font-family: "Yeseva One", serif;
-            font-size: 3.75rem;
-            line-height: 80px;
-            text-indent: 15px;
 
 
-        }
-
-        span {
-            color: rgb(255, 173, 90);
-            display: block;
-        }
-
-    }
-
-    .btn {
-        border-radius: 5px;
-        padding: 8px 15px;
-        border: none;
-        color: white;
-        background: rgb(255, 89, 89);
-        margin-top: 20px;
-        margin-bottom: 33px;
-    }
+header .heading {
+    position: relative;
 }
 
-header .hero-area .hero-image {
+header .heading h1 {
+    text-indent: 13px;
+    font-family: "Yeseva One", serif;
+    font-size: 3.75rem;
 
-    img {
-        width: 430px;
-    }
+}
+
+.colored-text {
+    color: rgb(255, 173, 90);
+}
+
+header .heading:before {
+    content: '';
+    position: absolute;
+    background-color: rgb(255, 89, 89);
+    border-radius: 5px;
+    width: 4px;
+    height: 80%;
+    top: 10%;
+}
+
+.hero-area .hero-text {
+    max-width: 500px;
+}
+
+.hero-text p {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.hero-text .btn {
+    border-radius: 5px;
+    padding: 12px;
+    background: rgb(255, 89, 89);
+    border: none;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.hero-image {
+    max-width: 400px;
+
+}
+
+.hero-image img {
+    width: 100%;
 }

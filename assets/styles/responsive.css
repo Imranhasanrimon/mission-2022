@@ -1,0 +1,42 @@
+/* for small devices  */
+@media screen and (max-width:576px) {
+
+    /* header section starts here  */
+    header .hero-area {
+        flex-direction: column;
+    }
+
+    header .heading h1 {
+        text-indent: 13px;
+        font-size: 2.5rem;
+
+    }
+
+}
+
+/* for medium devices  */
+@media screen and (min-width:576px) and (max-width:940px) {
+    header .hero-area {
+        flex-direction: column;
+    }
+
+    .hero-area .hero-text {
+        max-width: 100%;
+
+        .description {
+            width: 400px;
+        }
+    }
+
+    header .heading h1 {
+        text-indent: 13px;
+        font-size: 3.75rem;
+
+    }
+
+    .hero-image {
+        max-width: 60%;
+        transform: translateY(-70px);
+
+    }
+}
