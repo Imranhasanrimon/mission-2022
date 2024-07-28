@@ -59,7 +59,7 @@ header .heading:before {
     margin-bottom: 20px;
 }
 
-.hero-text .btn {
+.btn {
     border-radius: 5px;
     padding: 12px;
     background: rgb(255, 89, 89);

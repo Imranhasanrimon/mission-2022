@@ -12,20 +12,24 @@
 
     }
 
+    .hero-image {
+        max-width: 80%;
+        transform: translateY(-40px);
+
+    }
+
 }
 
 /* for medium devices  */
 @media screen and (min-width:576px) and (max-width:940px) {
+
+    /* header section starts here  */
     header .hero-area {
         flex-direction: column;
     }
 
     .hero-area .hero-text {
-        max-width: 100%;
-
-        .description {
-            width: 400px;
-        }
+        align-self: start;
     }
 
     header .heading h1 {
