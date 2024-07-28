@@ -150,13 +150,39 @@ header .heading:before {
 }
 
 
-.develop .text h3 {
+.develop .text h3,
+.application .text h4 {
     font-size: 2.25rem;
     margin-bottom: 17px;
 }
 
-.develop .text p {
+.develop .text p,
+.application .text p {
     font-size: 1.20rem;
     margin-bottom: 17px;
     line-height: 30px;
+}
+
+/* application section starts here  */
+.application {
+    max-width: 1150px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.application h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.application .app {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.app .image img {
+    width: 230px;
 }

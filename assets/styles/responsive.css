@@ -37,6 +37,19 @@
         text-align: justify;
     }
 
+    /* application section starts here  */
+    .application .app {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .app .image img {
+        width: 400px;
+    }
+
+    .application h3 {
+        font-size: 2rem;
+    }
 
 
 
@@ -78,5 +91,16 @@
     }
 
     /* develop section starts here  */
+
+
+    /* application section starts here  */
+    .application .app {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .app .image img {
+        width: 400px;
+    }
 
 }
