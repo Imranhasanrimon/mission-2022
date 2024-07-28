@@ -23,6 +23,23 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .mission2022 h2 {
+        font-size: 2rem;
+    }
+
+    /* develop section starts here  */
+    .develop {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .develop p {
+        text-align: justify;
+    }
+
+
+
+
 }
 
 /* for medium devices  */
@@ -57,6 +74,9 @@
     .mission-container .goal {
         justify-self: center;
         grid-column: span 2;
-        margin: 0 25%;
+        margin: 0 21%;
     }
+
+    /* develop section starts here  */
+
 }

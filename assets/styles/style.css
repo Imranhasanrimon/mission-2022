@@ -128,3 +128,35 @@ header .heading:before {
     padding: 20px;
     background: rgb(255, 244, 214);
 }
+
+/* develop section starts here  */
+.develop {
+    max-width: 1150px;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+
+}
+
+.develop .image {
+    max-width: 400px;
+    position: relative;
+}
+
+.develop .image img {
+    width: 100%;
+}
+
+
+.develop .text h3 {
+    font-size: 2.25rem;
+    margin-bottom: 17px;
+}
+
+.develop .text p {
+    font-size: 1.20rem;
+    margin-bottom: 17px;
+    line-height: 30px;
+}
